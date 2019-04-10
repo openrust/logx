@@ -3,5 +3,22 @@ name = "logx"
 version = "0.1.0"
 authors = ["Uncho <sergeychang@gmail.com>"]
 edition = "2018"
+description = "mini log package."
+license = "MIT"
 
 [dependencies]
+
+[features]
+level-none = []
+level-error = []
+level-warn = []
+level-info = []
+level-debug = []
+level-trace = []
+
+release-level-none = []
+release-level-error = []
+release-level-warn = []
+release-level-info = []
+release-level-debug = []
+release-level-trace = []
